@@ -23,7 +23,7 @@ def make_query(industry):
 
     # Select a database and a collection
     db = client["Industries"]
-    collection = db["Companies"]
+    collection = db["companies"]
 
     # Define a query to retrieve documents
     query = {"co_active_industries": industry}
